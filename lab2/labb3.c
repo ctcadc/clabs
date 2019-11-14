@@ -13,7 +13,7 @@ int strindex (char s[], char t[])
     return pos-1;
     return -1;
 }
-main(){
+int main(){
     char a[100];
     char b[100];
      printf("please input the chain of characters\n");
