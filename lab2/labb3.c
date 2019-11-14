@@ -16,7 +16,7 @@ int strindex (char s[], char t[])
 main(){
     char a[100];
     char b[100];
-    printf("please input the chain of characters\n");
-    scanf("%s %s", a,b);
-    printf("%d\n",strindex(b,a));
+     printf("please input the chain of characters\n");
+     scanf("%s %s", a,b);
+     printf("%d\n",strindex(b,a));
 }
